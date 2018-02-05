@@ -1,0 +1,28 @@
+.item1 { grid-area: IMDBlogo; }
+.item2 { grid-area: search; }
+.item3 { grid-area: movies; }
+.item4 { grid-area: celebs; }
+.item5 { grid-area: news; }
+.item6 { grid-area: watchlist; }
+.item7 {grid-area: facebook; }
+
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    background-color: dimgrey;
+    grid-gap: 0px;
+    display: grid;
+    padding: 10px;
+    background-color: dimgrey;
+    grid-gap: 10px;
+    border-radius: 15px;
+
+    grid-template-column:
+            'IMDBlogo search search search search search search
+
+
+
+}
+
+}
