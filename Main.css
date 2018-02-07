@@ -1,27 +1,56 @@
 
-.item1 { grid-area: IMDBlogo; }
-.item2 { grid-area: search; }
-.item3 { grid-area: movies; }
-.item4 { grid-area: celebs; }
-.item5 { grid-area: news; }
-.item6 { grid-area: watchlist; }
-.item7 { grid-area: facebook; }
+.IMDBlogo { grid-area: IMDBlogo; }
+.search { grid-area: search;
+}
+.movies { grid-area: movies; }
+.celebs { grid-area: celebs; }
+.news { grid-area: news; }
+.watchlist { grid-area: watchlist; }
+.facebook { grid-area: facebook; }
 
 
 .grid-container{
     padding: 10px;
+    display: grid;
     background-color: dimgrey;
     border-radius: 5px;
     text-align: center;
-    grid-template-area:
+    grid-template-areas:
        'IMDBlogo search search search search search search'
-        'IMDBlogo movies celebs news watchlist facebook facebook'
+       'IMDBlogo movies celebs news watchlist facebook facebook';
 }
 
 .container {
     width: 100%;
     border: 1px solid gray;
     text-align: center;
+}
+
+.div-container {
+    width: 100%;
+
+}
+
+.Header {
+    padding: 1em;
+    color: white;
+    background-color: dimgray;
+    clear: left;
+    text-align: center;
+
+}
+.button {
+    background-color: #ffdf3c;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    height: 49px;
+    width: 101px;
 
 
 }
